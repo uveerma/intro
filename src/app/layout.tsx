@@ -5,6 +5,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { clx } from "~~/utils";
 import { ViewTransitions } from "next-view-transitions";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://umangverma.com"),
@@ -55,6 +56,7 @@ export default function RootLayout({
           <main className="flex min-w-0 flex-col">
             {children}
           </main>
+          <Analytics />
         </body>
       </html>
     </ViewTransitions>
