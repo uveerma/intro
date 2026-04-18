@@ -141,7 +141,7 @@ function HeroSection() {
       <p className="mt-4 text-[16px] leading-relaxed text-gray-600">
         I'm a 21 yr old self-taught developer turned growth hacker.
         <br />
-        Building things people love to use makes me happiest.
+        Most happy when people use my products.
       </p>
     </section>
   );
@@ -157,7 +157,7 @@ function SummaryBullets() {
           <SummaryLink href="https://x.com/cleopetrafun" logo="/cleo.png" hoverColor={BRAND.cleopetra}>
             Cleopetra
           </SummaryLink>{" "}
-          — making prediction markets productive & capital efficient through onchain rails
+          — Building a new trading instrument called Thesis Index. Anyone with a macro view about the world can now become a fund manager.
         </li>
         <li className={BULLET_CLASSES}>
           Previously bootstrapped{" "}
